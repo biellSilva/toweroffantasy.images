@@ -1,0 +1,19 @@
+[project]
+name = "toweroffantasy.images"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [{ name = "Gabriel", email = "gabrieltkdnobrega63@gmail.com" }]
+dependencies = []
+requires-python = "==3.12.*"
+readme = "README.md"
+license = { text = "MIT" }
+
+
+[tool.pdm]
+distribution = false
+
+[tool.pdm.scripts]
+get-images = "dotnet run --project ./scripts/UnrealExporter/UnrealExporter tower-of-fantasy"
+convert-images = "tof images --unlink"
+
+convert = { composite = ["get-images", "convert-images"] }

@@ -1,0 +1,4 @@
+[submodule "UnrealExporter"]
+	path = scripts/UnrealExporter
+	url = https://github.com/whotookzakum/UnrealExporter
+    ignore = all

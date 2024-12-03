@@ -17,3 +17,6 @@ get-images = "dotnet run --project ./scripts/UnrealExporter/UnrealExporter tower
 convert-images = "pywebp convert ./Hotta ./Hotta --quality 100 --recursive --use-threads --unlink"
 
 convert = { composite = ["get-images", "convert-images"] }
+
+[tool.pyright]
+ignore = ["**/scripts"]

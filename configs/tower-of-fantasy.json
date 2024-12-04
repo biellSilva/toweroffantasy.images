@@ -110,7 +110,8 @@
       "Hotta/Content/Resources/UI/shizhuang/nitai/xiangqing/[^/]+\\.uasset:png",
       "Hotta/Content/Resources/UI/zhiye/[^/]+\\.uasset:png",
       "Hotta/Content/Resources/UI/zhuachong/doushou/itemicon/[^/]+\\.uasset:png",
-      "Hotta/Content/Resources/UI/huanxing/beiying/[^/]+\\.uasset:png"
+      "Hotta/Content/Resources/UI/huanxing/beiying/[^/]+\\.uasset:png",
+      "Hotta/Content/Resources/UI/wuqi/[^/]+\\.uasset:png"
     ],
     "exclude": []
   }

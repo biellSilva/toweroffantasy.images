@@ -3,7 +3,7 @@ name = "toweroffantasy.images"
 version = "0.1.0"
 description = "Default template for PDM package"
 authors = [{ name = "Gabriel", email = "gabrieltkdnobrega63@gmail.com" }]
-dependencies = ["python-webp>=2.0.0"]
+dependencies = ["python-webp>=2.0.1"]
 requires-python = "==3.12.*"
 readme = "README.md"
 license = { text = "MIT" }
@@ -14,7 +14,7 @@ distribution = false
 
 [tool.pdm.scripts]
 get-images = "dotnet run --project ./scripts/UnrealExporter/UnrealExporter tower-of-fantasy"
-convert-images = "pywebp convert ./Hotta ./Hotta --quality 100 --recursive --use-threads --unlink"
+convert-images = "pywebp convert ./Hotta ./Hotta --quality 100 --recursive --use-threads --unlink --no-ignore-existing"
 
 convert = { composite = ["get-images", "convert-images"] }
 

@@ -13,6 +13,10 @@
     "export": [
       "Hotta/Content/L10N/[a-zA-Z]+/Resources/UI/shizhuang/nitai/[^/]+\\.uasset:png",
       "Hotta/Content/L10N/[a-zA-Z]+/Resources/UI/shizhuang/nitai/xiangqing/wuwei/[^/]+\\.uasset:png",
+      "Hotta/Content/L10N/[a-zA-Z]+/Resources/UI/huanxing/lihui/[^/]+\\.uasset:png",
+      "Hotta/Content/L10N/[a-zA-Z]+/Resources/UI/huanxing/beiying/[^/]+\\.uasset:png",
+      "Hotta/Content/L10N/[a-zA-Z]+/Resources/UI/huanxing/name/[^/]+\\.uasset:png",
+      "Hotta/Content/Resources/UI/manyou/manyou_touxiang/[^/]+\\.uasset:png",
       "Hotta/Content/ResourcesOverSea/Icon/item/[^/]+\\.uasset:png",
       "Hotta/Content/ResourcesOverSea/Icon/weapon/[^/]+\\.uasset:png",
       "/Game/Resources/Icon/Avatar/[^/]+\\.uasset:png",
@@ -93,6 +97,7 @@
       "Hotta/Content/Resources/UI/cooking/pengren/[^/]+\\.uasset:png",
       "Hotta/Content/Resources/UI/equiptips/weapon_imitation/[^/]+\\.uasset:png",
       "Hotta/Content/Resources/UI/huanxing/lihui/[^/]+\\.uasset:png",
+      "Hotta/Content/Resources/UI/huanxing/beiying/[^/]+\\.uasset:png",
       "Hotta/Content/Resources/UI/liaotian/[^/]+\\.uasset:png",
       "Hotta/Content/Resources/UI/liaotian/biaoqing/xiaobiaoqing/[^/]+\\.uasset:png",
       "Hotta/Content/Resources/UI/liaotian/dongzuo/[^/]+\\.uasset:png",
@@ -110,7 +115,6 @@
       "Hotta/Content/Resources/UI/shizhuang/nitai/xiangqing/[^/]+\\.uasset:png",
       "Hotta/Content/Resources/UI/zhiye/[^/]+\\.uasset:png",
       "Hotta/Content/Resources/UI/zhuachong/doushou/itemicon/[^/]+\\.uasset:png",
-      "Hotta/Content/Resources/UI/huanxing/beiying/[^/]+\\.uasset:png",
       "Hotta/Content/Resources/UI/wuqi/[^/]+\\.uasset:png"
     ],
     "exclude": []

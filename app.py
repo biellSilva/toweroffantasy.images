@@ -9,7 +9,11 @@ app = FastAPI()
 
 @app.get("/{image:path}")
 async def get_image(image: str) -> FileResponse:
-    image_path = Path("./Hotta/Content", image)
+    image_path = (
+        Path(image)
+        if image.startswith("Hotta/Content")
+        else Path("./Hotta/Content", image)
+    )
     if not image_path.exists() or not image_path.is_file():
         raise HTTPException(
             status_code=404,

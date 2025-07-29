@@ -7,8 +7,6 @@ RUN pip install pdm
 
 RUN pdm install  --prod
 
-RUN pdm generate
-
 EXPOSE 8000
 
 COPY . /app

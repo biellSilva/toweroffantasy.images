@@ -3,7 +3,7 @@ name = "toweroffantasy.images"
 version = "0.1.0"
 description = "Default template for PDM package"
 authors = [{ name = "Gabriel", email = "gabrieltkdnobrega63@gmail.com" }]
-dependencies = ["python-webp>=2.0.1"]
+dependencies = ["fastapi>=0.116.1", "uvicorn>=0.35.0"]
 requires-python = "==3.12.*"
 readme = "README.md"
 license = { text = "MIT" }
@@ -18,5 +18,11 @@ convert-images = "pywebp convert ./Hotta ./Hotta --quality 100 --recursive --use
 
 convert = { composite = ["get-images", "convert-images"] }
 
+start = "uvicorn app:app --host 0.0.0.0 --port 8000 --workers 4"
+dev = "uvicorn app:app --reload"
+
 [tool.pyright]
 ignore = ["**/scripts"]
+
+[dependency-groups]
+dev = ["python-webp>=2.0.1"]
